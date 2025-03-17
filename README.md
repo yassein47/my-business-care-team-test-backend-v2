@@ -7,11 +7,24 @@ This project provides an API for transcribing audio files and analyzing the tran
 - **Text Analysis:** Analyzes the transcribed text using Anthropic AI API.
 - **RESTful API:** Simple endpoints for uploading audio and processing text.
 
+
+---
+
+## Demo
+`https://distinctive-faunie-my-bisuness-care-team-frontend-274b3477.koyeb.app/`
+
+
+---
+
+
 ## Prerequisites
 Before running this project, ensure you have the following:
 - Node.js installed
 - Deepgram API key
 - Anthropic API key
+
+---
+
 
 ## Installation
 1. Clone the repository:
@@ -29,11 +42,17 @@ Before running this project, ensure you have the following:
    ANTHROPIC_API_KEY=your-anthropic-key
    ```
 
+---
+
+
 ## Usage
 ### Start the server
 ```sh
 node index.js
 ```
+
+---
+
 
 ### API Endpoints
 #### 1. Transcribe Audio
@@ -65,6 +84,9 @@ node index.js
   }
   ```
 
+---
+
+
 ## Project Structure
 ```
 ├── src/
@@ -76,6 +98,9 @@ node index.js
 ├── package.json        # Project dependencies
 ```
 
+---
+
+
 ## Dependencies
 - `express`
 - `multer`
@@ -83,11 +108,20 @@ node index.js
 - `dotenv`
 - `axios`
 
+---
+
+
 ## License
 This project is licensed under the MIT License.
 
+---
+
 ## Writer
 node.js with love..
+
+---
+
+# Yassein
 
 
 
