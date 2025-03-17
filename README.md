@@ -11,7 +11,7 @@ This project provides an API for transcribing audio files and analyzing the tran
 ---
 
 ## Live Demo
-`[Live Demo](https://distinctive-faunie-my-bisuness-care-team-frontend-274b3477.koyeb.app/)`
+[Live Demo](https://distinctive-faunie-my-bisuness-care-team-frontend-274b3477.koyeb.app/)
 
 
 ---
