@@ -16,8 +16,8 @@ Before running this project, ensure you have the following:
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/yassein47/my-business-care-team-backend.git
+   cd my-business-care-team-backend
    ```
 2. Install dependencies:
    ```sh
