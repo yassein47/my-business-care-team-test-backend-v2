@@ -24,15 +24,16 @@ analyze = async (transcription) => {
             'anthropic-version': '2023-06-01',
         },
         body: JSON.stringify({
-            prompt: `\n\nHuman: ${transcription}\n\nAssistant:`,
             model: 'claude-2',
-            max_tokens_to_sample: 50,
-            stop_sequences: ['\n\nHuman:'],
+            max_tokens: 50,
             temperature: 0.7,
+            messages: [
+                { role: "user", content: transcription }
+            ]
         }),
     });
     const data = await response.json();
-    return data;
+    return data.content[0].text;
 }
 
 }

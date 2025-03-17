@@ -43,7 +43,7 @@ app.post("/analyze", async (req, res) => {
     }
     const response = await http.analyze(transcription);
     //console.log(response)
-    res.json({ analysis: response.completion });
+    res.json({ analysis: response });
   } catch (error) {
     //console.error("Error analyzing text:", error);
     res.status(500).json({ error: "Analysis failed", details: error.message });
