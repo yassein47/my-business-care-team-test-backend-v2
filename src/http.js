@@ -25,7 +25,7 @@ analyze = async (transcription) => {
         },
         body: JSON.stringify({
             model: 'claude-2',
-            max_tokens: 50,
+            max_tokens: 100,
             temperature: 0.7,
             messages: [
                 { role: "user", content: transcription }
