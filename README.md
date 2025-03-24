@@ -3,10 +3,13 @@
 This project provides an API for transcribing audio files and analyzing the transcribed text using external AI services.
 
 ## Features
-- **Audio Transcription:** Converts spoken words in an audio file to text using Deepgram API.
-- **Text Analysis:** Analyzes the transcribed text using Anthropic AI API.
-- **RESTful API:** Simple endpoints for uploading audio and processing text.
-
+- **Audio Transcription**: Converts spoken words in an audio file to text using Deepgram API.
+- **Text Analysis**: Analyzes the transcribed text using Anthropic AI API.
+- **Database Integration**: Stores transcriptions and their analysis in a simple database.
+- **New API Endpoints**:
+-- Retrieve **stored** transcriptions by ID.
+-- **Delete** transcriptions and their analysis.
+-- **RESTful API**: Simple endpoints for uploading audio, processing text, and managing stored data.
 
 ---
 
@@ -92,10 +95,14 @@ node index.js
 ├── src/
 │   ├── http.js         # Handles HTTP requests to APIs
 │   ├── url.js          # Stores API URLs
+│   ├── db_manager.js   # manager all function with dataBase
+│   ├── db.js           # Database handling (new file)
 ├── uploads/            # Temporary storage for uploaded audio files
-├── index.js            # Main server file
+├── server.js           # Main server file
+├── myBusinessCareTeamTestDB.db   
 ├── .env                # Environment variables
 ├── package.json        # Project dependencies
+
 ```
 
 ---
