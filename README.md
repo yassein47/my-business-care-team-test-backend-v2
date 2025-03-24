@@ -114,6 +114,7 @@ node index.js
 - `cors`
 - `dotenv`
 - `axios`
+- `sqlite3`
 
 ---
 
