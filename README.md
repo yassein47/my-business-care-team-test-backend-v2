@@ -7,9 +7,9 @@ This project provides an API for transcribing audio files and analyzing the tran
 - **Text Analysis**: Analyzes the transcribed text using Anthropic AI API.
 - **Database Integration**: Stores transcriptions and their analysis in a simple database.
 - **New API Endpoints**:
-- - Retrieve **stored** transcriptions by ID.
-- - **Delete** transcriptions and their analysis.
-- - **RESTful API**: Simple endpoints for uploading audio, processing text, and managing stored data.
+   - Retrieve **stored** transcriptions by ID.
+   - **Delete** transcriptions and their analysis.
+   - **RESTful API**: Simple endpoints for uploading audio, processing text, and managing stored data.
 
 ---
 
